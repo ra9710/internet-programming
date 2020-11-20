@@ -1,14 +1,18 @@
 ﻿div.a {
-    margin-left: 150px;
+    /*margin-left: 20px;*/
     background-color: deepskyblue;
+    margin-bottom:10px;
 }
 
 div.b {
     background-color: lawngreen;
+    margin-bottom: 10px;
 }
 
 div.c {
     background-color: crimson;
+    /*float:right*/
+    margin-bottom:10px;
 }
 
 div.relative {
