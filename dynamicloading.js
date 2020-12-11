@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", function (event){
 
                     }
                 };
-                xttp.open("GET", "data/list.json", true);
+                xttp.open("GET", "list.json", true);
                 xttp.send(null);
             }
         };
-        xttp.open("GET", "templates/item.html", true);
+        xttp.open("GET", "item.html", true);
         xttp.send(null);
     });
 
@@ -43,11 +43,11 @@ function loadItem() {
 
                 }
             };
-            xttp.open("GET", "data/list.json", true);
+            xttp.open("GET", "list.json", true);
             xttp.send(null);
         }
     };
-    xttp.open("GET", "templates/item.html", true);
+    xttp.open("GET", "item.html", true);
     xttp.send(null);
 };
 
